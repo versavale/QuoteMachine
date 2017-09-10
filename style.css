@@ -1,0 +1,315 @@
+@media screen and (max-width: 700px) {
+  body {
+    background-color: #e6e6e6;
+  }
+
+  .back {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border-radius: 15px;
+    animation-name: changingbackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    box-shadow: 5px 5px 30px #888888;
+  }
+
+  @keyframes changingbackground {
+    0% {
+      background-color: #e6e600;
+    }
+    25% {
+      background-color: #ff751a;
+    }
+    50% {
+      background-color: #ff1a1a;
+    }
+    75% {
+      background-color: #ff751a;
+    }
+    100% {
+      background-color: #e6e600;
+    }
+  }
+
+  .title {
+    margin-top: 5%;
+    text-align: center;
+    color: black;
+    font-family: 'Corben', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 25px;
+  }
+
+  .quote-box {
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: 20px auto;
+    width: 90%;
+    height: 90%;
+    resize: none;
+    padding: 10px 10px;
+    border: 0px solid grey;
+    background-color: #e6e6e6;
+    z-index: -1;
+  }
+
+  .text {
+    width: 100%;
+    height: 250px;
+  }
+
+  .quote-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-left: -25px auto;
+    //  margin-top: 6%;
+  }
+
+  .author-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    margin-right: 25px;
+    margin-top: 5px;
+  }
+
+  .new-quote {
+    float: left;
+    width: 60%;
+    display: inline;
+    overflow: auto;
+    white-space: nowrap;
+    margin: -35px auto;
+    border-radius: 15px;
+    background: #0d0d0d;
+    font-family: 'Kalam', cursive;
+    font-size: 14px;
+    color: #e6e6e6;
+    width: 75px;
+    height: 35px;
+    border: none;
+    padding: 0px 0px;
+    z-index: 1;
+    opacity: 1;
+    cursor: pointer;
+    outline: 0 !important;
+    box-shadow: 2px 2px 3px #888888;
+  }
+
+  .new-quote:active {
+    opacity: 0.75;
+    transform: translateY(2px);
+  }
+
+  .new-quote:hover {
+    opacity: 0.75;
+  }
+
+  .twitter-share-button {
+    float: right;
+    width: 60%;
+    display: inline;
+    overflow: auto;
+    white-space: nowrap;
+    margin: -35px auto;
+    border-radius: 15px;
+    background: #0d0d0d;
+    font-family: 'Kalam', cursive;
+    font-size: 14px;
+    color: #e6e6e6;
+    width: 75px;
+    height: 35px;
+    border: none;
+    z-index: 1;
+    opacity: 1;
+    cursor: pointer;
+    outline: 0 !important;
+    box-shadow: 2px 2px 3px #888888;
+  }
+
+  .twitter-share-button:active {
+    opacity: 0.75;
+    transform: translateY(2px);
+  }
+
+  .twitter-share-button:hover {
+    opacity: 0.75;
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+  a {
+    position: relative;
+    left: 50%;
+    margin-left: -80px;
+    top: 480px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-color: #e6e6e6;
+  }
+
+  .back {
+    width: 710px;
+    height: 360px;
+    margin: auto;
+    border-radius: 15px;
+    animation-name: changingbackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    box-shadow: 5px 5px 30px #888888;
+  }
+
+  @keyframes changingbackground {
+    0% {
+      background-color: #e6e600;
+    }
+    25% {
+      background-color: #ff751a;
+    }
+    50% {
+      background-color: #ff1a1a;
+    }
+    75% {
+      background-color: #ff751a;
+    }
+    100% {
+      background-color: #e6e600;
+    }
+  }
+
+  .title {
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    font-family: 'Corben', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 25px;
+  }
+
+  .quote-box {
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: 20px auto;
+    width: 650px;
+    height: 230px;
+    resize: none;
+    padding: 10px 10px;
+    display: table;
+    border: 0px solid grey;
+    background-color: #e6e6e6;
+    z-index: -1;
+  }
+
+  .text {
+    width: 660px;
+    height: 180px;
+  }
+
+  .quote-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 30px;
+    margin-left: -25px auto;
+  }
+
+  .author-text {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    margin-right: 25px;
+    margin-top: -30px;
+  }
+
+  .new-quote {
+    border-radius: 15px;
+    margin-left: 20px;
+    background: #0d0d0d;
+    font-family: 'Kalam', cursive;
+    font-size: 14px;
+    color: #e6e6e6;
+    width: 100px;
+    height: 35px;
+    border: none;
+    padding: 0px 0px;
+    z-index: 1;
+    opacity: 1;
+    cursor: pointer;
+    outline: 0 !important;
+    box-shadow: 2px 2px 3px #888888;
+  }
+
+  .new-quote:active {
+    opacity: 0.75;
+    transform: translateY(2px);
+  }
+
+  .new-quote:hover {
+    opacity: 0.75;
+  }
+
+  .twitter-share-button {
+    border-radius: 15px;
+    margin-left: 425px;
+    background: #0d0d0d;
+    font-family: 'Kalam', cursive;
+    font-size: 14px;
+    color: #e6e6e6;
+    width: 100px;
+    height: 35px;
+    border: none;
+    z-index: 1;
+    opacity: 1;
+    cursor: pointer;
+    outline: 0 !important;
+    box-shadow: 2px 2px 3px #888888;
+  }
+
+  .twitter-share-button:active {
+    opacity: 0.75;
+    transform: translateY(2px);
+  }
+
+  .twitter-share-button:hover {
+    opacity: 0.75;
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+  a {
+    position: relative;
+    left: 50%;
+    margin-left: -80px;
+    top: 480px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+}
